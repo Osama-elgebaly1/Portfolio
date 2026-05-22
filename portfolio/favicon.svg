@@ -1,33 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-  <rect width="512" height="512" fill="#111827" />
-
   <defs>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="100%" stop-color="#4FACFE" />
+    <linearGradient id="exactLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ce7cc" />
+      <stop offset="50%" stop-color="#00b4ec" />
+      <stop offset="100%" stop-color="#1946eb" />
     </linearGradient>
   </defs>
 
-  <g stroke="url(#logoGrad)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <rect width="512" height="512" rx="80" fill="#161b22" />
+
+  <g stroke="url(#exactLogoGrad)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none">
     
-    <path d="M 210 130 
-             C 120 130, 80 180, 80 256 
-             C 80 332, 120 382, 210 382 
-             C 270 382, 300 340, 310 290" />
-    <path d="M 140 190 L 85 256 L 140 322" stroke-width="20" />
+    <path d="M 235 135 
+             C 130 135, 85 185, 85 256 
+             C 85 327, 130 377, 235 377 
+             C 290 377, 315 340, 325 295" />
+    <path d="M 155 195 L 95 256 L 155 317" stroke-width="22" />
 
     <g stroke-width="14">
-      <path d="M 220 230 L 195 256 L 220 282" />
-      <path d="M 265 220 L 245 292" />
-      <path d="M 290 230 L 315 256 L 290 282" />
+      <path d="M 225 230 L 200 256 L 225 282" />
+      <path d="M 268 220 L 244 292" />
+      <path d="M 287 230 L 312 256 L 287 282" />
     </g>
 
-    <path d="M 310 220 
-             C 325 170, 360 130, 420 130 
-             L 430 130 
-             M 370 130 L 370 382 L 430 382 
-             M 370 256 L 415 256" />
-    <path d="M 370 190 L 425 256 L 370 322" stroke-width="20" />
+    <path d="M 325 220 
+             C 335 175, 365 135, 425 135 
+             L 435 135 
+             M 375 135 L 375 377 L 435 377 
+             M 375 256 L 420 256" />
+    <path d="M 375 195 L 435 256 L 375 317" stroke-width="22" />
 
   </g>
 </svg>
