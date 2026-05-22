@@ -1,26 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-  <rect width="512" height="512" rx="96" fill="#111827" />
+  <rect width="512" height="512" fill="#111827" />
 
-  <g stroke="#00f2fe" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+  </defs>
+
+  <g stroke="url(#logoGrad)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
     
-    <path d="M 220 140 
-             C 140 140, 90 190, 90 256 
-             C 90 322, 140 372, 220 372 
-             C 270 372, 300 340, 310 295" />
-    <path d="M 160 200 L 110 256 L 160 312" stroke-width="16" />
+    <path d="M 210 130 
+             C 120 130, 80 180, 80 256 
+             C 80 332, 120 382, 210 382 
+             C 270 382, 300 340, 310 290" />
+    <path d="M 140 190 L 85 256 L 140 322" stroke-width="20" />
 
-    <g stroke="#2af598" stroke-width="12">
-      <path d="M 225 235 L 205 256 L 225 277" />
-      <path d="M 265 225 L 245 287" />
-      <path d="M 275 235 L 295 256 L 275 277" />
+    <g stroke-width="14">
+      <path d="M 220 230 L 195 256 L 220 282" />
+      <path d="M 265 220 L 245 292" />
+      <path d="M 290 230 L 315 256 L 290 282" />
     </g>
 
-    <path d="M 310 215 
-             C 325 175, 355 140, 415 140 
-             L 420 140 
-             M 375 140 L 375 372 L 420 372 
-             M 375 256 L 410 256" />
-    <path d="M 370 200 L 420 256 L 370 312" stroke-width="16" />
+    <path d="M 310 220 
+             C 325 170, 360 130, 420 130 
+             L 430 130 
+             M 370 130 L 370 382 L 430 382 
+             M 370 256 L 415 256" />
+    <path d="M 370 190 L 425 256 L 370 322" stroke-width="20" />
 
   </g>
 </svg>
